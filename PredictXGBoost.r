@@ -51,4 +51,3 @@ final_pred <-cbind(testid,pred1)
 
 names(final_pred) <- c("Id","Front","Left","Rear","Right")
 write.csv(final_pred,"final_prediction_XGB.csv", row.names = FALSE)
-
